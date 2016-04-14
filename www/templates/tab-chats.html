@@ -1,16 +1,35 @@
 <ion-view view-title="Vinos">
   <ion-content>
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
-        <h2>{{chat.name}}</h2>
-        <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
-      </ion-item>
-    </ion-list>
+    <div class="list card">
+    	<div class="item"><div style="float: right; clear: left;"><IMG style="width: auto; max-height: 140px; " src="img/starwars7.jpg"></div>
+        	<h2>Vino</h2>
+        	<p>una copa</p>
+        	<p>$50.00</p>
+    	</div>
+   	 
+    	<div class="item">
+        	<h2>Te Helado</h2>
+        	<p>te lipton</p>
+        	<p>$15.00</p>
+    	</div>
+    	
+    	<div class="item">
+        	<h2>Refresco</h2>
+        	<p>lata</p>
+        	<p>$10.00</p>
+    	</div>
+    	
+    	<div class="item">
+        	<h2>Cerveza</h2>
+        	<p>lata</p>
+        	<p>$40.00</p>
+    	</div>
+    	
+    	<div class="item">
+        	<h2>Limonada con Fresa</h2>
+        	<p>rellenable</p>
+        	<p>$20.00</p>
+    	</div>
+	</div>
   </ion-content>
 </ion-view>
